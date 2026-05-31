@@ -1,0 +1,1 @@
+package io.github.ooo1208.infrastructure.gateway.adapter;
