@@ -1,5 +1,5 @@
 # /usr/local/bin/docker-compose -f /docs/dev-ops/environment/environment-docker-compose-2.4.yml up -d
-version: '3.8'
+
 # docker-compose -f docker-compose-app.yml up -d
 # 你需要修改system为你自身系统的仓库名
 services:
@@ -8,7 +8,7 @@ services:
     container_name: BigMarket
     restart: on-failure
     ports:
-      - "8091:8091"
+      - "8090:8090"
     environment:
       - TZ=PRC
       - SERVER_PORT=8091
